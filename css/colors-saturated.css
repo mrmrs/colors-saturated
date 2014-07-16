@@ -1,0 +1,135 @@
+/***
+
+   colors.css v0.2.0
+   http://clrs.cc
+   @mrmrs
+   MIT License
+
+***/
+/*
+
+   SKINS
+   • Backgrounds
+   • Colors
+
+*/
+/* Backgrounds */
+.bg-navy {
+  background-color: #002B75; }
+
+.bg-blue {
+  background-color: #0050D4; }
+
+.bg-aqua {
+  background-color: #00D9F7; }
+
+.bg-teal {
+  background-color: #00A6A6; }
+
+.bg-olive {
+  background-color: #00B562; }
+
+.bg-green {
+  background-color: #00D942; }
+
+.bg-lime {
+  background-color: #B4D900; }
+
+.bg-yellow {
+  background-color: #EBCF00; }
+
+.bg-orange {
+  background-color: #EB7700; }
+
+.bg-red {
+  background-color: #EB0012; }
+
+.bg-fuchsia {
+  background-color: #FF00C3; }
+
+.bg-purple {
+  background-color: #8D00FF; }
+
+.bg-maroon {
+  background-color: #790009; }
+
+.bg-white {
+  background-color: #fff; }
+
+.bg-gray {
+  background-color: #333; }
+
+.bg-silver {
+  background-color: #777; }
+
+.bg-black {
+  background-color: #000; }
+
+/* Colors */
+.navy {
+  color: #002B75; }
+
+.blue {
+  color: #0050D4; }
+
+.aqua {
+  color: #00D9F7; }
+
+.teal {
+  color: #00A6A6; }
+
+.olive {
+  color: #00B562; }
+
+.green {
+  color: #00D942; }
+
+.lime {
+  color: #B4D900; }
+
+.yellow {
+  color: #EBCF00; }
+
+.orange {
+  color: #EB7700; }
+
+.red {
+  color: #EB0012; }
+
+.fuchsia {
+  color: #FF00C3; }
+
+.purple {
+  color: #8D00FF; }
+
+.maroon {
+  color: #790009; }
+
+.white {
+  color: #fff; }
+
+.silver {
+  color: #777; }
+
+.gray {
+  color: #333; }
+
+.black {
+  color: #000; }
+
+/* Prettier Links */
+a {
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out; }
+
+a:link {
+  color: #0050D4; }
+
+a:visited {
+  color: #8D00FF; }
+
+a:hover {
+  color: #00D9F7; }
+
+a:active {
+  color: #EB7700; }
