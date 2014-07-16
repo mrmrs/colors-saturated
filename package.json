@@ -1,5 +1,5 @@
 {
-  "name": "colors-saturated",
+  "name": "css-colors-saturated",
   "version": "0.0.1",
   "devDependencies": {
     "browser-sync": "^1.3.0",

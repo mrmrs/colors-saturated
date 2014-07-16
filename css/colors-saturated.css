@@ -9,8 +9,11 @@
 /*
 
    SKINS
-   • Backgrounds
-   • Colors
+   - Backgrounds
+   - Colors
+   - Border colors
+   - SVG fills
+   - SVG Strokes
 
 */
 /* Backgrounds */
@@ -117,19 +120,162 @@
 .black {
   color: #000; }
 
-/* Prettier Links */
-a {
-  -webkit-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out; }
+/* Border colors 
 
-a:link {
-  color: #0050D4; }
+   Use with another border utility that sets border-width and style 
+   i.e .border { border-width: 1px; border-style: solid; }     
+*/
+.border--navy {
+  border-color: #002B75; }
 
-a:visited {
-  color: #8D00FF; }
+.border--blue {
+  border-color: #0050D4; }
 
-a:hover {
-  color: #00D9F7; }
+.border--aqua {
+  border-color: #00D9F7; }
 
-a:active {
-  color: #EB7700; }
+.border--teal {
+  border-color: #00A6A6; }
+
+.border--olive {
+  border-color: #00B562; }
+
+.border--green {
+  border-color: #00D942; }
+
+.border--lime {
+  border-color: #B4D900; }
+
+.border--yellow {
+  border-color: #EBCF00; }
+
+.border--orange {
+  border-color: #EB7700; }
+
+.border--red {
+  border-color: #EB0012; }
+
+.border--fuchsia {
+  border-color: #FF00C3; }
+
+.border--purple {
+  border-color: #8D00FF; }
+
+.border--maroon {
+  border-color: #790009; }
+
+.border--white {
+  border-color: #fff; }
+
+.border--gray {
+  border-color: #333; }
+
+.border--silver {
+  border-color: #777; }
+
+.border--black {
+  border-color: #000; }
+
+/* Fills for SVG */
+.fill-navy {
+  fill: #002B75; }
+
+.fill-blue {
+  fill: #0050D4; }
+
+.fill-aqua {
+  fill: #00D9F7; }
+
+.fill-teal {
+  fill: #00A6A6; }
+
+.fill-olive {
+  fill: #00B562; }
+
+.fill-green {
+  fill: #00D942; }
+
+.fill-lime {
+  fill: #B4D900; }
+
+.fill-yellow {
+  fill: #EBCF00; }
+
+.fill-orange {
+  fill: #EB7700; }
+
+.fill-red {
+  fill: #EB0012; }
+
+.fill-fuchsia {
+  fill: #FF00C3; }
+
+.fill-purple {
+  fill: #8D00FF; }
+
+.fill-maroon {
+  fill: #790009; }
+
+.fill-white {
+  fill: #fff; }
+
+.fill-gray {
+  fill: #333; }
+
+.fill-silver {
+  fill: #777; }
+
+.fill-black {
+  fill: #000; }
+
+/* Strokes for SVG */
+.stroke-navy {
+  stroke: #002B75; }
+
+.stroke-blue {
+  stroke: #0050D4; }
+
+.stroke-aqua {
+  stroke: #00D9F7; }
+
+.stroke-teal {
+  stroke: #00A6A6; }
+
+.stroke-olive {
+  stroke: #00B562; }
+
+.stroke-green {
+  stroke: #00D942; }
+
+.stroke-lime {
+  stroke: #B4D900; }
+
+.stroke-yellow {
+  stroke: #EBCF00; }
+
+.stroke-orange {
+  stroke: #EB7700; }
+
+.stroke-red {
+  stroke: #EB0012; }
+
+.stroke-fuchsia {
+  stroke: #FF00C3; }
+
+.stroke-purple {
+  stroke: #8D00FF; }
+
+.stroke-maroon {
+  stroke: #790009; }
+
+.stroke-white {
+  stroke: #fff; }
+
+.stroke-gray {
+  stroke: #333; }
+
+.stroke-silver {
+  stroke: #777; }
+
+.stroke-black {
+  stroke: #000; }
