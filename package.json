@@ -26,5 +26,8 @@
     "url": "http://github.com/mrmrs/colors-saturated/issues",
     "email": "hi@mrmrs.cc"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp"
+  }
 }
